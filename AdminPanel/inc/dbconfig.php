@@ -4,6 +4,11 @@ $user = 'root';
 $pass = 'root';
 $db = 'ercelstore';
 
+// $host = 'sql204.infinityfree.com';
+// $user = 'if0_40351630';
+// $pass = 'Hosting512';
+// $db = 'if0_40351630_ercelstore';
+
 $con = mysqli_connect($host, $user, $pass, $db);
 
 if (!$con) {
